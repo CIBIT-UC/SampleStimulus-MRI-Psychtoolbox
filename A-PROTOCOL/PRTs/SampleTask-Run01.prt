@@ -1,0 +1,47 @@
+
+FileVersion:		2 
+
+ResolutionOfTime:	Volumes 
+
+Experiment:			Sample-Experiment 
+
+BackgroundColor:	0  0  0 
+TextColor:			255  255  255 
+
+TimeCourseColor:	1  1  1 
+TimeCourseThick:	3 
+ReferenceFuncColor:	0   0  80 
+ReferenceFuncThick:	2 
+
+NrOfConditions:		4 
+ 
+Fixation 
+4 
+6	10 
+21	25 
+36	40 
+51	55 
+Color:	170 170 170 
+
+DotsMoving 
+4 
+11	15 
+26	30 
+41	45 
+56	60 
+Color:	0 115 190 
+
+Response 
+4 
+16	20 
+31	35 
+46	50 
+61	65 
+Color:	216 83 25 
+
+Discard 
+2 
+1	5 
+66	70 
+Color:	200 200 200 
+
