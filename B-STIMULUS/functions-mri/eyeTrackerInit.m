@@ -105,4 +105,4 @@ success = EyelinkDoTrackerSetup(el);
 % Fill screen with black after calibration
 Screen('FillRect', windowID, S.black, []);
 
-end % End functions
+end % End function

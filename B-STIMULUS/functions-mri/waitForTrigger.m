@@ -56,3 +56,5 @@ gotTrigger=0;
 timeStamp=getSecs;
 disp(strcat('Timed out after waiting for ',num2str(t-t0),' seconds'));
 disp(strcat('# cycles:',cycles));
+
+end

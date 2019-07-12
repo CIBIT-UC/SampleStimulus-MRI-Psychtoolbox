@@ -8,7 +8,6 @@ function [  ] = eyeTrackerStop( aborted )
 %
 
 % Stop recording eyetracker data
-
 Eyelink('StopRecording'); % Stop the recording of eye-movements for the current trial
 Eyelink('Message', 'TRIAL_RESULT 0') % Sending a 'TRIAL_RESULT' message to mark the end of a trial in Data Viewer.
 Eyelink('CloseFile');
@@ -18,4 +17,3 @@ if ~aborted
 end
 
 end
-
